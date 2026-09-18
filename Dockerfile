@@ -21,4 +21,5 @@ COPY servidor.pck /app/servidor.pck
 
 EXPOSE 8910
 
+# Iniciar el servidor Godot en modo headless
 CMD ["/app/servidor.x86_64", "--headless"]
