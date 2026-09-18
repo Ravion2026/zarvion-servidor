@@ -14,5 +14,5 @@ RUN chmod +x servidor.x86_64
 # Exponer el puerto ENet de Godot
 EXPOSE 8910
 
-# Iniciar el servidor en modo headless
+# Iniciar el servidor en modo headless.
 CMD ["./servidor.x86_64", "--headless"]
