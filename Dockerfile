@@ -1,10 +1,9 @@
 FROM ubuntu:latest
 
-# Instalar curl y dependencias de compatibilidad de Godot
+# Instalar curl y dependencias esenciales de Ubuntu para Godot
 RUN apt-get update && apt-get install -y \
     curl \
     libglib2.0-0 \
-    libgandalf-1-0 \
     libstdc++6 \
     && rm -rf /var/lib/apt/lists/*
 
